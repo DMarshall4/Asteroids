@@ -8,4 +8,4 @@ Spacebar to Shoot
 # objective
 Survive as long as possible while destorying as meny asteroids as possible 
 
-# Refernces
+# References
