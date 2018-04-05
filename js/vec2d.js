@@ -1,10 +1,10 @@
-var Vec2D = (function()
+let Vec2D = (function()
 {
 	//exposed methods:
 
-	var create = function(x, y)
+	let create = function(x, y)
 	{
-		var obj = Object.create(def);
+		let obj = Object.create(def);
 		obj.setXY(x, y);
 
 		return obj;
@@ -12,7 +12,7 @@ var Vec2D = (function()
 
 	//Vec2D definition:
 
-	var def =
+	let def =
 	{
 		_x: 1,
 		_y: 0,
@@ -50,7 +50,7 @@ var Vec2D = (function()
 
 		setLength: function(length)
 		{
-			var angle = this.getAngle();
+			let angle = this.getAngle();
 			this._x = Math.cos(angle) * length;
 			this._y = Math.sin(angle) * length;
 		},
@@ -62,7 +62,7 @@ var Vec2D = (function()
 
 		setAngle: function(angle)
 		{
-			var length = this.getLength();
+			let length = this.getLength();
 			this._x = Math.cos(angle) * length;
 			this._y = Math.sin(angle) * length;
 		},
