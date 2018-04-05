@@ -1,10 +1,10 @@
-var Asteroid = (function()
+let Asteroid = (function()
 {
 	//exposed methods:
 
-	var create = function()
+	let create = function()
 	{
-		var obj = Object.create(def);
+		let obj = Object.create(def);
 		obj.radius = 40;
 		obj.color = '#FF5900';
 		obj.pos = Vec2D.create(0, 0);
@@ -20,7 +20,7 @@ var Asteroid = (function()
 
 	//Ship definition:
 
-	var def =
+	let def =
 	{
 		radius: null,
 		color: null,
