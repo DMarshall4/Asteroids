@@ -9,3 +9,5 @@ Spacebar to Shoot
 Survive as long as possible while destorying as meny asteroids as possible 
 
 # References
+http://www.zekechan.net/asteroids-html5-game-tutorial-1/
+https://codepen.io/jeffibacache/pen/bzBsp
